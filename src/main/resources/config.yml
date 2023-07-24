@@ -1,0 +1,22 @@
+# Server settings
+servername: server-1
+
+# Redis settings
+hostname: localhost
+port: 6379
+
+# In most cases you will have been given an username ("default" for example like RedisLabs)
+# or you will have to setup a user.
+username: "default"
+password: "your_password"
+
+# The default channel option should be fine, but just incase!
+channel: "minesync"
+
+# Timeout in miliseconds
+timeout: 10000
+
+# Pterodactyl Redis egg:
+# If you use a Pterodactyl Redis egg, it will have no username set by default, you can search for
+# the "masteruser" setting in the redis.conf file using CTRL + F and change it to for example:
+# masteruser default

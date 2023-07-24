@@ -1,0 +1,9 @@
+name: MineSync
+version: '${project.version}'
+main: be.ciaran.minesync.MineSync
+api-version: 1.19
+authors: [SleepingCiaran]
+description: A plugin that executes a command on multiple Minecraft servers using Redis.
+commands:
+  minesync:
+    description: MineSync command.
